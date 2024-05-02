@@ -10,7 +10,7 @@ const Listagem: React.FC<IListagem> = ({ dados }) => {
 
     useEffect(() => {
         setLista(dados)
-        setLista([])
+        // setLista([])
     }, [])
 
     return (
